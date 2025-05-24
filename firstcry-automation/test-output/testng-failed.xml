@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fristcryTest.StoreAndPreschoolLocatorTest">
+      <class name="com.firstcry.runner.TestRunner">
         <methods>
-          <include name="testPreschoolLocatorNavigation"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testStoreLocatorNavigation"/>
-          <include name="testPreschoolSearchByPincode"/>
-          <include name="testStoreSelection"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
-      </class> <!-- fristcryTest.StoreAndPreschoolLocatorTest -->
+      </class> <!-- com.firstcry.runner.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
